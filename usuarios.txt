@@ -1,0 +1,8 @@
+{
+    "name": "Mario",
+    "surname": "Lizón Cubí",
+    "contrasena": "dsadadas",
+    "phone": "+34691358375",
+    "mail": "mario@gmail.com",
+    "sex": "M"
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+</head>
+
+<body>
+    <form action="ws/crearUsuario.php" method="post">
+        <label>
+            Nombre
+            <input type="text" name="name" required>
+        </label>
+        <br><br>
+        <label>
+            Apellidos
+            <input type="text" name="surname" required>
+        </label>
+        <br><br>
+        <label>
+            Contraseña
+            <input type="password" name="contrasena" required>
+        </label>
+        <br><br>
+        <label>
+            Teléfono
+            <input type="tel" name="phone" required>
+        </label>
+        <br><br>
+        <label>
+            Email
+            <input type="email" name="mail" required>
+        </label>
+        <br><br>
+        <label>
+            Masculino
+            <input type="radio" name="sex" value="M" required>
+        </label>
+        <label>
+            Femenino
+            <input type="radio" name="sex" value="F" required>
+        </label>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
